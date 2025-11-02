@@ -1,0 +1,135 @@
+{
+  "config": {
+    "abort": {
+      "no_config_entry": "Ajax UART is not configured yet.",
+      "invalid_hub": "The selected bridge entry is no longer available.",
+      "not_ready": "The bridge is not ready. Try again once the connection is established.",
+      "busy": "The bridge is already processing another pairing request.",
+      "pairing_failed": "Unable to add the device. Please try again.",
+      "pairing_timeout": "No device was detected before the timeout expired.",
+      "pairing_stopped": "Pairing cancelled.",
+      "pairing_success": "Device added successfully.",
+      "pairing_missing_candidate": "No pending device to confirm.",
+      "stop_failed": "Failed to enter engineering mode on the bridge.",
+      "add_failed": "The bridge rejected the pairing command.",
+      "confirm_failed": "The bridge rejected the confirmation command.",
+      "no_session": "Pairing session is no longer active.",
+      "no_candidate": "No pending device available for confirmation.",
+      "invalid_stage": "The bridge returned an unexpected response during pairing."
+    },
+    "progress": {
+      "pairing_search": "Seeking for new devices... Please power on the device you want to add.",
+      "pairing_confirm": "Waiting for the bridge to complete the pairing."
+    },
+    "step": {
+      "user": {
+        "title": "Configure Ajax UART",
+        "description": "Provide the serial connection details for the Ajax uartBridge.",
+        "data": {
+          "port": "Serial port",
+          "baudrate": "Baud rate"
+        }
+      },
+      "add_choice": {
+        "title": "Add Integration",
+        "description": "What would you like to add?",
+        "menu_options": {
+          "add_hub": "Add Hub",
+          "add_device": "Add Device"
+        }
+      },
+      "add_hub": {
+        "title": "Add New Hub",
+        "description": "Configure the serial connection details for the new Ajax uartBridge.",
+        "data": {
+          "port": "Serial port",
+          "baudrate": "Baud rate"
+        }
+      },
+      "add_device": {
+        "title": "Add Device",
+        "description": "Adding a new device to the Ajax UART bridge."
+      },
+      "hub": {
+        "title": "Select bridge",
+        "description": "Choose which Ajax UART instance to use for pairing.",
+        "data": {
+          "entry_id": "Bridge"
+        }
+      },
+      "confirm": {
+        "title": "New device found",
+        "description": "Found a new device {device_name} (ID: {device_id}, FW: {firmware}).",
+        "menu_options": {
+          "confirm_add": "Add device",
+          "confirm_stop": "Stop pairing"
+        }
+      },
+      "confirm_add": {
+        "title": "Add device"
+      },
+      "confirm_stop": {
+        "title": "Stop pairing"
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Ajax UART options",
+        "data": {
+          "port": "Serial port",
+          "baudrate": "Baud rate"
+        }
+      }
+    }
+  },
+  "alarm": {
+    "tamper_alarm": "Tamper alarm",
+    "tamper_restored": "Tamper restored",
+    "tamper_dual_restored": "Dual restoration of tamper",
+    "loop_alarm": "Loop alarm",
+    "loop_restored": "Loop restored",
+    "loop_dual_restored": "Dual restoration of loop",
+    "terminal_open": "Terminal is open",
+    "terminal_closed": "Terminal is closed",
+    "terminal_dual_closed": "Dual closing of terminal",
+    "smoke_detected": "Smoke detected",
+    "smoke_cleared": "No smoke",
+    "smoke_dual_cleared": "No smoke (dual event)",
+    "co_exceeded": "Acceptable CO level is exceeded",
+    "co_normal": "CO level is back to normal",
+    "co_dual_normal": "CO level is back to normal (dual event)",
+    "temperature_exceeded": "Temperature level exceeded allowable threshold",
+    "temperature_normal": "Temperature is at normal level",
+    "temperature_dual_normal": "Temperature level is back to normal (dual event)",
+    "flood_detected": "Flood detected",
+    "flood_cleared": "Flood alarm is removed",
+    "flood_dual_restored": "Flood detector is restored (dual event)",
+    "motion_detected": "Motion detected",
+    "glass_breakage_detected": "Glass breakage detected",
+    "keyfob_button_1": "Keyfob \u2014 button 1",
+    "keyfob_button_2": "Keyfob \u2014 button 2",
+    "keyfob_button_3": "Keyfob \u2014 button 3",
+    "keyfob_button_4": "Keyfob \u2014 button 4",
+    "extreme_temperature_growth_detected": "Extreme temperature growth detected",
+    "extreme_temperature_growth_stopped": "Extreme temperature growth stopped",
+    "co_camera_fault": "CO camera in smoke detector is out of order",
+    "co_camera_restored": "CO camera is restored",
+    "unknown_alarm": "Unknown alarm from detector",
+    "unsupported_device": "Unsupported device",
+    "battery_low": "Low battery level detected",
+    "battery_normal": "Battery level back to normal",
+    "sensor_lost": "Sensor is lost",
+    "sensor_restored": "Sensor is back in network after connection loss",
+    "radio_link_long_recovery_module_rebooted": "Long connection between receiver and sensor; radio module rebooted",
+    "smoke_camera_fault": "Camera in smoke detector is out of order",
+    "smoke_camera_restored": "Camera is restored",
+    "camera_dirty": "Camera is dirty",
+    "camera_cleaned": "Camera is cleaned",
+    "jamming_detected": "Jamming detected",
+    "jamming_stopped": "Jamming stopped",
+    "masking_by_jamming": "Masking by jamming",
+    "masking_by_jamming_stopped": "Masking by jamming is stopped"
+  }
+}
