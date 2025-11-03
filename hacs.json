@@ -1,8 +1,6 @@
 {
   "name": "Ajax UART",
   "content_in_root": false,
-  "domains": ["ajax_uart"],
   "homeassistant": "2023.1.0",
-  "render_readme": true,
-  "logo": "https://raw.githubusercontent.com/FScoua/ha-ajax-uart/main/custom_components/ajax_uart/logo.png"
+  "render_readme": true
 }
